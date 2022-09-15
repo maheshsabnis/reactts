@@ -4,7 +4,7 @@ interface Details {
     id:number,
     name:string
 }
-
+// use the interface that is used to pass data to the Component
 const InfoComponent:FC<Details>=(props)=>{
 
     return (
